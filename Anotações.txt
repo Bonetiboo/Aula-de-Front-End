@@ -66,3 +66,33 @@ Exemplos:
 <p>Texto do parágrafo</p>
 <img src="foto.png" alt="Descrição">
 <a href="#">Texto do link</a>
+
+Quando utilizar tabelas:
+
+- Dados comparáveis entre si.
+- Informações estruturadas em categorias.
+- Relatórios, notas, preços, horários e etc.
+
+Quando não utilizar tabelas:
+
+- Criar layout de página.
+- Posicionar elementos visuais.
+- Substituir CSS ou Flexbox.
+
+Tabela é para dados, não para design.
+
+Estrutura básica:
+
+<table> Envolve toda a tabela.
+<tr> Table Row - define cada linha.
+<td> Table Data - define cada célula.
+<th> Usado no lugar do td como "título" ou para definir o nome da coluna.
+
+<table>
+    <tr>
+        <th> Exemplo de Título </th>
+    </tr>
+    <tr>
+        <td> Exemplo de informação da célula</td>
+    </tr>
+</table>
