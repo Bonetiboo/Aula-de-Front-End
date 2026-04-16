@@ -96,3 +96,62 @@ Estrutura básica:
         <td> Exemplo de informação da célula</td>
     </tr>
 </table>
+
+<lable for="usuario">
+    Nome de usuário:
+</lable>
+
+<input type="text"
+       id="usuario"
+       name="usuario"/>
+
+Existem diversos tipos de inputs:
+
+text, email, password, number, radio (marcador que aceita uma única opção, bolinhas), checkbox (marcador que aceita várias opções, quadradinhos), date, file...
+
+Para o text temos: maxlength (máximo de caracteres), minlength(mínimo de caracteres), required(campo obrigatório) e value (define valor padrão, como por exemplo +55 para o DDI do Brasil).
+
+<lable for="estado">Estado:</lable>
+
+<select id="estado" name="estado"> (serve para aqueles botões que monstram um monte de opções pra selecionar)
+    <option value="">Selecione...</option>
+    <option value="">São Paulo</option>
+    <option value="">Rio de Janeiro</option>
+    <option value="">Minas Gerais</option>
+</select>
+
+<lable for="mensagem">
+    Sua mensagem:
+</lable>
+
+<textarea>
+    id="mensagem"
+    name="mensagem"
+    rows="5"
+    cols="40"
+    placeholder="Escreve aqui sua mensagem..."
+    maxlength="500"
+    required>
+</textarea>
+
+<button type="submit">
+    Enviar
+</button>
+
+<button type="reset">
+    Limpar
+</button>
+
+<button type="button">
+    onclick="minhaFuncao()"
+    Clique aqui
+</button>
+
+
+Um formulário deve ter:
+
+Campo de nome(text, obrigatório)
+Campo de e-mail(email, obrigatório)
+Campo de assunto(text)
+Nível de urgência (3 radio buttons)
+mensagem
