@@ -155,3 +155,34 @@ Campo de e-mail(email, obrigatório)
 Campo de assunto(text)
 Nível de urgência (3 radio buttons)
 mensagem
+
+CSS:
+
+chamar por: tag, classe e id
+
+tag {
+    color: gray;
+}
+
+.classe {
+    color: #ff6b99;
+}
+
+#id {
+    color: red;
+}
+
+Propriedades:
+
+color: cor do texto (#ff6b99)
+brackground-color: cor de fundo (red)
+font-family: tipo da fonte (Arial)
+font-size: tamanho do texto (20px)
+text-align: alinhamento do texto (center)
+
+Margin e Padding
+
+Margin: espaçamento entre elementos
+Padding: espaçamento do próprio elementos
+Border: espessura, estilo e cor da borda de um elemento
+border-radius: arredonda os cantos do elemento
